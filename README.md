@@ -35,7 +35,7 @@ The **otelsdk** package handles the SDK initialization. It declares the controll
 
 ## Run the service
 
-To run this service, you can simply execute the command ``$go run main.go`` from the root directory. 
+To run this service, you can simply execute the command ``go run main.go`` from the root directory. 
 
 The expected output should be as follows: 
 
