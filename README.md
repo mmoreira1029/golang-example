@@ -1,5 +1,5 @@
 
-# **golang-service-otel-example**
+# **golang-example**
 
 ## Introduction
 
