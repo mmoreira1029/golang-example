@@ -53,7 +53,6 @@ func (s *Server) StartServer() error {
 
 			start := time.Now()
 
-			//fmt.Println(fmt.Sprintf("Request Method: %s", r.Method))
 			fmt.Println("Hello!")
 
 			duration := time.Since(start)

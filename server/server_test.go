@@ -30,12 +30,6 @@ func TestServerResponse(t *testing.T) {
 
 	response, err := http.Get(url)
 
-	// if response.StatusCode != http.StatusOK {
-	// 	t.Fatalf("Test Failed - HTTP Status: %v", response.Status)
-	// } //else if response.StatusCode == http.StatusOK {
-	// //	fmt.Println("ok")
-	// //}
-
 	if err != nil {
 		t.Fatalf("HTTP Request failed with error: %d", err)
 	} else if response.StatusCode != http.StatusOK {
